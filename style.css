@@ -1,0 +1,265 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    padding: 2% 0% 5% 0%;
+    margin: auto;
+    width: 70%;
+}
+header .Headname{
+    float: left;
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+}
+header .Headname h5{
+    margin: 0px;
+}
+#txt1{
+    color: red;
+}
+header nav{
+    float: right;
+    display: inline;
+    font-weight: bold;
+}
+header .nav_list{
+    list-style: none;
+    display: inline;
+    vertical-align: sub;
+}
+header .nav_list li{
+    display: inline;
+}
+.Intro_container{
+    text-align: center;
+}
+.Intro_container .Intro_area{
+    text-align: center;
+    width: 70%;
+    padding: 5% 0% 5% 0%;
+    margin: auto;
+}
+.Intro_container .Intro_area button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+}
+.Project_container{
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    clear: both;
+}
+.project_group{
+    text-align: center;
+}
+.Project_container .Projects{
+    display: inline;
+    float: left;
+    width: 30%;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin-bottom: 8%;
+    margin-right: 4%;
+}
+.Project_container .Projects img{
+    width: 100%;
+    height: 200px;
+}
+.Project_container .project .project_content{
+    display: block;
+    clear: both;
+    text-align: center;
+}
+.Project_container .project .project_content h3,p{
+    display: block;
+    clear: both;
+}
+.Project_container .project .project_content p{
+    font-style: italic;
+    color: rgb(134, 134, 134);
+}
+.About_container{
+    float: left;
+    clear: both;
+    padding: 5% 15%;
+    background-color: lightgray;
+}
+.About_container .Aboutme{
+    float: left;
+    width: 50%;
+    text-align: justify;
+    padding-right: 5%;
+}
+.About_container .Aboutme p{
+    color: rgb(73, 73, 73);
+}
+.About_container .Whatsnew{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.About_container .Whatsnew .whatsnew_article{
+    float: left;
+    padding-bottom: 5%;
+}
+.About_container .Whatsnew .whatsnew_article img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.About_container .Whatsnew .whatsnew_article .article_content{
+    float: left;
+    width: 65%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 0%;
+}
+.About_container .Whatsnew .whatsnew_article .article_content h3{
+    margin-top: 0%;
+}
+.About_container .Whatsnew .whatsnew_article .article_content h3,p{
+    display: block;
+}
+.About_container .Whatsnew .whatsnew_article .article_content p{
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+}
+.Footer{
+    clear: both;
+    text-align: center;
+    padding: 2% 15% 5% 15%;
+    font-weight: bold;
+}
+.Footer h4{
+    float: left;
+}
+.Footer ul{
+    list-style: none;
+    float: right;
+    display: inline;
+}
+.Footer ul li{
+    display: inline;
+}
+@media(max-width:768px){
+    header .Headname{
+        float: left;
+        display: inline;
+        font-size: 25px;
+    }
+    header nav{
+        float: right;
+        display: inline;
+    }
+    header nav .nav_list{
+        vertical-align: sub;
+    }
+    .Project_container {
+        text-align: center;
+        clear: both;
+    }
+    .Project_container .project_group{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+    .Project_container .Projects{
+        display: inline-block;
+        width: 100%;
+        float: none;
+        padding: 0%;
+    }
+    .Project_container .Projects img{
+        width: 100%;
+        height: 200px;
+    }
+    .About_container .Aboutme{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .About_container .Whatsnew{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .About_container .Whatsnew .whatsnew_article{
+        text-align: center;
+        float: none;
+        /* margin-left: 20%; */
+    }
+    .About_container .Whatsnew .whatsnew_article .imgc{
+        text-align: center;
+        padding: 0%;
+    }
+    .About_container .Whatsnew .whatsnew_article img{
+        float: none;
+        display: inline-block;
+        text-align: center;
+        /* margin: 5% 3%; */
+        margin-right: 0%;
+        width: 150px;
+        height: 150px;
+    }
+    .About_container .Whatsnew .whatsnew_article .article_content{
+        display: block;
+        float: none;
+        width: 100%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .Footer h4{
+        float: none;
+    }
+    .Footer ul{
+        float: none;
+        display: block;
+        padding-left: 0%;
+    }
+    .Footer ul li{
+        display: inline;
+    }
+}
+@media(max-width:425px){
+    header{ 
+        text-align: center;
+        padding: 0%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    header .Headname{
+        float: none;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* margin-left: 50px; */
+    }
+    header nav{
+        /* padding-left: 0%;  */
+       display: block;
+        float: left;
+        /* margin-top: 0%; */
+    }
+    header nav .nav_list{
+        /* padding-left: 0%; */
+        display: block;
+        float: left;
+    } 
+}
